@@ -17,7 +17,7 @@ The Taku (AnyThink) Smartdigimkt ADX mediation adapter for iOS, distributed via 
    ```
    https://github.com/TakuMediation-packages/AnyThinkMediationAdxSmartdigimktCNAdapter_SPM
    ```
-3. Select **Exact Version** and enter the target version (e.g. `6.5.80-2.1`).
+3. Select **Exact Version** and enter the target version (e.g. `60580.2.1`).
 4. Add the `AnyThinkMediationAdxSmartdigimktCNAdapter` product to your app target.
 5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
@@ -27,7 +27,7 @@ The Taku (AnyThink) Smartdigimkt ADX mediation adapter for iOS, distributed via 
 dependencies: [
     .package(
         url: "https://github.com/TakuMediation-packages/AnyThinkMediationAdxSmartdigimktCNAdapter_SPM.git",
-        exact: "6.5.80-2.1"
+        exact: "60580.2.1"
     )
 ]
 ```
